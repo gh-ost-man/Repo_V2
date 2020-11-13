@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Money;
 namespace Task_V2
 {
     class Program
@@ -16,6 +16,8 @@ namespace Task_V2
             Console.WriteLine("Test");
             Console.WriteLine("Mykola is here");
             Console.WriteLine(" is here");
+
+            Money.Money money = new Money.Money();
         }
     }
 }
