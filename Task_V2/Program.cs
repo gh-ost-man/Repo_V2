@@ -20,7 +20,7 @@ namespace Task_V2
             Console.WriteLine(" is here");
             CreditCard creditCard = new CreditCard();
 
-            Money.Money money = new Money.Money();
+           Money.Money money = new Money.Money();
         }
     }
 }
