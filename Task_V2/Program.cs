@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Money;
 using CreditCardLib;
 
 namespace Task_V2
@@ -18,6 +19,8 @@ namespace Task_V2
             Console.WriteLine("Mykola is here");
             Console.WriteLine(" is here");
             CreditCard creditCard = new CreditCard();
+
+            Money.Money money = new Money.Money();
         }
     }
 }
