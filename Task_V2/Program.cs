@@ -12,6 +12,7 @@ namespace Task_V2
         {
             Console.WriteLine("Aloha");
             Console.WriteLine("Ghost is here");
+            Console.WriteLine("Test");
         }
     }
 }
