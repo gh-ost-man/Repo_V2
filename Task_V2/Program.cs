@@ -13,16 +13,13 @@ namespace Task_V2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Aloha");
-            Console.WriteLine("Ghost is here");
-            Console.WriteLine("Test");
-            Console.WriteLine("Test");
-            Console.WriteLine("Mykola is here");
-            Console.WriteLine(" is here");
-
+            
             BusinessCard bc = new BusinessCard();
             CreditCard cc = new CreditCard();
             Money.Money m = new Money.Money();
+
+            Console.WriteLine("Credit card: ");
+            Console.WriteLine(cc);
 
             Console.WriteLine();
         }
