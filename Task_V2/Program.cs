@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Money;
-using CreditCardLib;
+using BusinessCardLib;
 
 namespace Task_V2
 {
@@ -18,9 +17,9 @@ namespace Task_V2
             Console.WriteLine("Test");
             Console.WriteLine("Mykola is here");
             Console.WriteLine(" is here");
-            CreditCard creditCard = new CreditCard();
 
-           Money.Money money = new Money.Money();
+            BusinessCard bc = new BusinessCard();
+        
         }
     }
 }
