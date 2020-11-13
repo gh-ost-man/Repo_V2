@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessCardLib;
+using CreditCardLib;
+using Money;
 
 namespace Task_V2
 {
@@ -19,6 +21,9 @@ namespace Task_V2
             Console.WriteLine(" is here");
 
             BusinessCard bc = new BusinessCard();
+            CreditCard cc = new CreditCard();
+            Money.Money m = new Money.Money();
+
             Console.WriteLine();
         }
     }

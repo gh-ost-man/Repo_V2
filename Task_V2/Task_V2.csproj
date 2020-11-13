@@ -52,5 +52,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CreditCardLib\CreditCardLib.csproj">
+      <Project>{7AFF94D0-BEAE-4BB0-87AC-10FB1D7DE934}</Project>
+      <Name>CreditCardLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Money\Money.csproj">
+      <Project>{F3EF758A-7F4E-4A07-83D5-90E6DDB1ED7E}</Project>
+      <Name>Money</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
