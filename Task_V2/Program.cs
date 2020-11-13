@@ -11,6 +11,7 @@ namespace Task_V2
         static void Main(string[] args)
         {
             Console.WriteLine("Aloha");
+            Console.WriteLine("Ghost is here");
         }
     }
 }
